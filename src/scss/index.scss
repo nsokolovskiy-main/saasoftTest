@@ -1,0 +1,8 @@
+@mixin grid-layout {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr 2fr 40px;
+
+  &_ldap {
+    grid-template-columns: 3fr 2fr 4fr 40px; 
+  }
+}
